@@ -10,7 +10,7 @@ To see how Code Scanning works, we will introduce a vulnerability into the `rout
 
 1. In the top right of the preview, click the **Edit** button.
 
-   <img width="500" alt="edit button" src="../images/edit-button.png"/>
+   <img width="500" alt="edit button" src="https://github.com/briefjo/skills-introduction-to-codeql/blob/main/.github/images/edit-button.png?raw=true"/>
 
 1. Navigate to about **line 16** and modify it to the below.
 
@@ -34,7 +34,7 @@ To see how Code Scanning works, we will introduce a vulnerability into the `rout
 
 1. Scroll to the bottom of the pull request and search for a check named `CodeQL`. This is the analysis job scanning the proposed code changes in the pull request.
 
-   <img width="500" alt="CodeQL check in progress" src="../images/codeql-check-in-progress.png" />
+   <img width="500" alt="CodeQL check in progress" src="https://github.com/briefjo/skills-introduction-to-codeql/blob/main/.github/images/codeql-check-in-progress.png?raw=true" />
 
 1. If the job is still running, wait a few minutes for it to complete.
 
@@ -43,7 +43,7 @@ To see how Code Scanning works, we will introduce a vulnerability into the `rout
    - Notice that the results found a SQL injection vulnerability. It also suggests a fix.
    - Don't worry about responding to this or resolving the problem (yet).
 
-   <img width="500" alt="code scan results" src="../images/code-scan-results.png" />
+   <img width="500" alt="code scan results" src="https://github.com/briefjo/skills-introduction-to-codeql/blob/main/.github/images/code-scan-results.png?raw=true" />
 
    > 💡 Tip: Clicking the **Show paths** link will provide additional insights about the alert's data flow from user input (source), through the application, and when it is acted on (sink).
 
@@ -53,21 +53,21 @@ To see how Code Scanning works, we will introduce a vulnerability into the `rout
 
 1. In the left navigation, select the **CodeQL** entry to filter the workflow runs.
 
-   <img width="500" alt="codeql filter" src="../images/codeql-filter.png"/>
+   <img width="500" alt="codeql filter" src="https://github.com/briefjo/skills-introduction-to-codeql/blob/main/.github/images/codeql-filter.png?raw=true"/>
 
 1. Click on the workflow run with the name **PR #2** to open a page with more details.
 
-   <img width="500" alt="codeql setup" src="../images/codeql-setup.png"/>
+   <img width="500" alt="codeql setup" src="https://github.com/briefjo/skills-introduction-to-codeql/blob/main/.github/images/codeql-setup.png?raw=true"/>
 
 1. Expand the run jobs by clicking **Show all jobs** then click on the **Analyze (python)** entry. The list of all workflow steps is now shown.
 
-   <img height="250" alt="matrix jobs" src="../images/matrix-jobs.png" />
+   <img height="250" alt="matrix jobs" src="https://github.com/briefjo/skills-introduction-to-codeql/blob/main/.github/images/matrix-jobs.png?raw=true" />
 
-   <img height="250" alt="list of codeql jobs" src="../images/list-of-codeql-jobs.png" />
+   <img height="250" alt="list of codeql jobs" src="https://github.com/briefjo/skills-introduction-to-codeql/blob/main/.github/images/list-of-codeql-jobs.png?raw=true" />
 
 1. Find the analysis entry and consider reviewing the logs.
 
-   <img width="500" alt="python analysis logs" src="../images/python-analysis-logs.png" />
+   <img width="500" alt="python analysis logs" src="https://github.com/briefjo/skills-introduction-to-codeql/blob/main/.github/images/python-analysis-logs.png?raw=true" />
 
 1. With the pull request started and CodeQL scan finished, Mona will check your progress and share the next steps.
 

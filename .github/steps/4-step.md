@@ -12,7 +12,7 @@ Finally, let's use the information provided by CodeQL to better understand the v
 
 1. In the top right of the preview, click the **Edit** button.
 
-   <img width="500" alt="edit button" src="../images/edit-button.png"/>
+   <img width="500" alt="edit button" src="https://github.com/briefjo/skills-introduction-to-codeql/blob/main/.github/images/edit-button.png?raw=true"/>
 
 1. Navigate to about **line 16** and modify it to the below.
 
@@ -33,10 +33,10 @@ Finally, let's use the information provided by CodeQL to better understand the v
 
 1. Click on **Closed** to show our recently resolved alert.
 
-   <img width="350" alt="image" src="../images/closed-alerts-button.png" />
+   <img width="350" alt="image" src="https://github.com/briefjo/skills-introduction-to-codeql/blob/main/.github/images/closed-alerts-button.png?raw=true" />
 
 1. Open our alert and notice the audit trail now includes how the alert was fixed.
 
-   <img width="350" alt="image" src="../images/audit-trail-fixed-alert.png" />
+   <img width="350" alt="image" src="https://github.com/briefjo/skills-introduction-to-codeql/blob/main/.github/images/audit-trail-fixed-alert.png?raw=true" />
 
 1. With our alert fixed, Mona will check your progress and share a final review. Nice work! You are all done! 🥳
